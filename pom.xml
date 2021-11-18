@@ -16,6 +16,7 @@
 	<properties>
 		<java.version>11</java.version>
 		<kotlin.version>1.5.31</kotlin.version>
+		<openapi.verison>1.5.6</openapi.verison>
 	</properties>
 	<dependencies>
 		<!-- SPRING -->
@@ -88,6 +89,13 @@
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<!-- OPEN API/SWAGGER -->
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-ui</artifactId>
+			<version>${openapi.verison}</version>
 		</dependency>
 	</dependencies>
 
