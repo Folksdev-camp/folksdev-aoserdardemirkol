@@ -5,6 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a7f608e-ce2c-48a0-9312-56720e245b84" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/odev3_dbDump.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/controller/DummyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/controller/DummyController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/MovieDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/MovieDto.kt" afterDir="false" />
@@ -68,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637256228098</updated>
-      <workItem from="1637256229288" duration="1845000" />
+      <workItem from="1637256229288" duration="2218000" />
     </task>
     <servers />
   </component>
