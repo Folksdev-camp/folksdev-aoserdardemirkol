@@ -130,7 +130,7 @@ class UsersControllerIT extends IntegrationTestSupport {
                 .andExpect(status().is2xxSuccessful())
                 .andExpect(content().contentType(MediaType.APPLICATION_JSON))
                 .andExpect(jsonPath("$.id", is(users.getId())))
-                .andExpect(jsonPath("$.username", is(users.getUsername())));
+                .andExpect(jsonPath("$.username", is(request.getUsername())));
 
         Users userFromDb = usersRepository.findById(Objects.requireNonNull(users.getId())).get();
         assertEquals(updatedUser, userFromDb);

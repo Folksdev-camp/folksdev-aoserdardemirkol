@@ -148,7 +148,8 @@ public class CommentControllerIT extends IntegrationTestSupport {
                         .content(mapper.writer().withDefaultPrettyPrinter().writeValueAsString(request)))
                 .andExpect(status().is2xxSuccessful())
                 .andExpect(content().contentType(MediaType.APPLICATION_JSON))
-                .andExpect(jsonPath("$.id", is(comment.getId())));
+                .andExpect(jsonPath("$.id", is(comment.getId())))
+                .andExpect(jsonPath("$.content", is(request.getContent())));
 
         Comment commentFromDb = commentRepository.findById(Objects.requireNonNull(comment.getId())).get();
         assertEquals(updatedComment, commentFromDb);

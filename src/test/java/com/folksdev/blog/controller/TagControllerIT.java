@@ -124,7 +124,7 @@ public class TagControllerIT extends IntegrationTestSupport {
                 .andExpect(status().is2xxSuccessful())
                 .andExpect(content().contentType(MediaType.APPLICATION_JSON))
                 .andExpect(jsonPath("$.id", is(tag.getId())))
-                .andExpect(jsonPath("$.name", is(tag.getName())));
+                .andExpect(jsonPath("$.name", is(request.getName())));
 
         Tag userFromDb = tagRepository.findById(Objects.requireNonNull(tag.getId())).get();
         assertEquals(updatedTag, userFromDb);

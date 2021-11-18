@@ -12,7 +12,6 @@ import java.util.Collections;
 import java.util.List;
 
 public class TestSupport {
-    // Users
     public CreateUsersRequest generateCreateUsersRequest(){
         return new CreateUsersRequest(
                 "username",
@@ -62,8 +61,7 @@ public class TestSupport {
         UsersDto users = generateUsersDto();
         return List.of(users);
     }
-
-    // Tag
+    
     public CreateTagRequest generateCreateTagRequest(){
         return new CreateTagRequest(
                 "name"
@@ -109,7 +107,6 @@ public class TestSupport {
         return List.of(tagDto);
     }
 
-    // Entry
     public CreateEntryRequest generateCreateEntryRequest(){
         return new CreateEntryRequest(
                 "title",
@@ -180,7 +177,6 @@ public class TestSupport {
         return List.of(entryDto);
     }
 
-    // Comment
     public CreateCommentRequest generateCreateCommentRequest(){
         return new CreateCommentRequest(
                 "content",
