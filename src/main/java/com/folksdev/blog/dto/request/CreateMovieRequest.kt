@@ -1,4 +1,8 @@
 package com.folksdev.blog.dto.request
 
-class CreateMovieRequest {
-}
+import javax.validation.constraints.NotBlank
+
+data class CreateMovieRequest(
+    @field:NotBlank
+    val name : String
+)

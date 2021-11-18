@@ -1,4 +1,5 @@
 package com.folksdev.blog.dto
 
-class MovieDto {
-}
+data class MovieDto (
+    val name : String
+)
