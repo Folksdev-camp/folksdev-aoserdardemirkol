@@ -7,11 +7,6 @@ import javax.persistence.*
 
 @Entity
 data class Entry @JvmOverloads constructor(
-    /*
-    * id degerinin String?="" seklinde null deger olabilir olarak tanımlanmasının sebebi:
-    * - id yi otomatik olusturacak olmamız.
-    * - insert islemi yapılırken id degeri vermeyecek olmamız.
-    */
     @Id
     @Column(name = "entry_id")
     @GeneratedValue(generator = "UUID")
@@ -30,11 +25,6 @@ data class Entry @JvmOverloads constructor(
     )
     val tags: List<Tag>,
 
-    /*
-    * User -> List<Entry>
-    *         Owner
-    *         User
-    */
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "author_id", referencedColumnName = "user_id") // Entry = Owner(fk)
     val users: Users,

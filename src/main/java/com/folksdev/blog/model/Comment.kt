@@ -16,20 +16,10 @@ data class Comment @JvmOverloads constructor(
     val createDate: LocalDateTime = LocalDateTime.now(),
     val updateDate: LocalDateTime?,
 
-    /*
-    * Entry -> List<Comment>
-    *          Owner
-    *          Entry
-    */
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "entry_id", referencedColumnName = "entry_id") // Comment = Owner(fk)
     val entry: Entry,
 
-    /*
-    * User -> List<Comment>
-    *         Owner
-    *         User
-    */
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "author_id", referencedColumnName = "user_id") // Comment = Owner(fk)
     val users: Users,

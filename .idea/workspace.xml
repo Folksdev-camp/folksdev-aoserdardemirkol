@@ -5,22 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a7f608e-ce2c-48a0-9312-56720e245b84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/odev3_dbDump.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/controller/DummyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/controller/DummyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/MovieDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/MovieDto.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/request/CreateMovieRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/request/CreateMovieRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/configuration/DataLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/CommentDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/EntryDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/TagDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/UsersDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/converter/BaseDtoConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/converter/CommentDtoConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/converter/EntryDtoConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/converter/TagDtoConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/converter/UsersDtoConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/request/CreateCommentRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/request/CreateEntryRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/request/CreateTagRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/request/CreateUsersRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/request/UpdateCommentRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/request/UpdateEntryRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/request/UpdateTagRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/request/UpdateUsersRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/repository/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/repository/EntryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/repository/TagRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/repository/UsersRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/model/Comment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/model/Comment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/model/Entry.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/model/Entry.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,11 +51,15 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="JPA Inspector" value="true" />
+        <entry key="JPA Palette" value="true" />
         <entry key="JPA Structure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="JPA Inspector" value="false" />
+        <entry key="JPA Palette" value="false" />
         <entry key="JPA Structure" value="false" />
       </map>
     </option>
@@ -60,8 +74,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/projects/java/blog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/folksdev/blog/repository" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aoser\Downloads\blog\blog\src\main\java\com\folksdev\blog\repository" />
+      <recent name="C:\Users\aoser\Downloads\blog\blog\src\main\java\com\folksdev\blog\dto" />
+      <recent name="C:\Users\aoser\Downloads\blog\blog\src\main\java\com\folksdev\blog\dto\request" />
+      <recent name="C:\Users\aoser\Downloads\blog\blog\src\main\java\com\folksdev\blog\dto\converter" />
+      <recent name="C:\Users\aoser\Downloads\blog\blog\src\main\java\com\folksdev\blog\model" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.folksdev.blog.model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.folksdev.blog.configuration" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="BlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -80,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637256228098</updated>
-      <workItem from="1637256229288" duration="2218000" />
+      <workItem from="1637256229288" duration="2693000" />
     </task>
     <servers />
   </component>
