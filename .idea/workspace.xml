@@ -5,12 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a7f608e-ce2c-48a0-9312-56720e245b84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/folksdev/blog/IntegrationTestSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/folksdev/blog/controller/CommentControllerIT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/folksdev/blog/controller/EntryControllerIT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/folksdev/blog/controller/TagControllerIT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/folksdev/blog/controller/UsersControllerIT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
+    <property name="last_opened_file_path" value="D:/projects/folksdev-aoserdardemirkol-main" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -133,6 +127,8 @@
       <option name="presentableId" value="Default" />
       <updated>1637256228098</updated>
       <workItem from="1637256229288" duration="3281000" />
+      <workItem from="1637261625376" duration="274000" />
+      <workItem from="1637261972743" duration="44000" />
     </task>
     <servers />
   </component>
@@ -149,9 +145,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/blog$com_folksdev_blog_in_blog.ic" NAME="com.folksdev.blog in blog Coverage Results" MODIFIED="1637260889147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/blog$com_folksdev_blog_in_blog.ic" NAME="com.folksdev.blog in blog Coverage Results" MODIFIED="1637261636910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.folksdev.blog.*</FILTER>
     </SUITE>
   </component>
