@@ -5,32 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a7f608e-ce2c-48a0-9312-56720e245b84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/configuration/DataLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/CommentDto.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/EntryDto.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/TagDto.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/UsersDto.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/converter/BaseDtoConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/converter/CommentDtoConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/converter/EntryDtoConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/converter/TagDtoConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/converter/UsersDtoConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/request/CreateCommentRequest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/request/CreateEntryRequest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/request/CreateTagRequest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/request/CreateUsersRequest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/request/UpdateCommentRequest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/request/UpdateEntryRequest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/request/UpdateTagRequest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/dto/request/UpdateUsersRequest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/repository/CommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/repository/EntryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/repository/TagRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/repository/UsersRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/controller/EntryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/controller/TagController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/controller/UsersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/exception/CommentNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/exception/EntryNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/exception/GeneralExceptionAdviser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/exception/TagNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/exception/UsersNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/service/EntryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/service/TagService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/service/UsersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_10__insert_comment.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_1__create_users.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_2__create_tags.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_3__create_entry.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_4__create_entry_tags.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_5__create_comment.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_6__insert_users.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_7__insert_tag.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_8__insert_entry.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_9__insert_entry_tag.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/model/Comment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/model/Comment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/model/Entry.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/folksdev/blog/model/Entry.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,19 +72,24 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/folksdev/blog/repository" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/db" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aoser\Downloads\blog\blog\src\main\resources\db" />
+      <recent name="C:\Users\aoser\Downloads\blog\blog\src\main\java\com\folksdev\blog\exception" />
+      <recent name="C:\Users\aoser\Downloads\blog\blog\src\main\java\com\folksdev\blog\service" />
+      <recent name="C:\Users\aoser\Downloads\blog\blog\src\main\java\com\folksdev\blog\controller" />
       <recent name="C:\Users\aoser\Downloads\blog\blog\src\main\java\com\folksdev\blog\repository" />
-      <recent name="C:\Users\aoser\Downloads\blog\blog\src\main\java\com\folksdev\blog\dto" />
-      <recent name="C:\Users\aoser\Downloads\blog\blog\src\main\java\com\folksdev\blog\dto\request" />
-      <recent name="C:\Users\aoser\Downloads\blog\blog\src\main\java\com\folksdev\blog\dto\converter" />
-      <recent name="C:\Users\aoser\Downloads\blog\blog\src\main\java\com\folksdev\blog\model" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="com.folksdev.blog.model" />
@@ -109,7 +115,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637256228098</updated>
-      <workItem from="1637256229288" duration="2693000" />
+      <workItem from="1637256229288" duration="3281000" />
     </task>
     <servers />
   </component>
