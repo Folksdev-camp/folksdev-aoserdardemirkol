@@ -92,5 +92,7 @@ JUnit test coverage 100% ve Integration testleri yapılmıştır.
 |                       |  PUT   | localhost:8080/v1/comment/0 | id değeri 0 olan yorumu günceller.                  |
 |                       | DELETE | localhost:8080/v1/comment/0 | id değeri 0 olan yorumu siler.                      |
 
+Ödevler [commit.md](https://github.com/Folksdev-camp/folksdev-aoserdardemirkol/blob/main/commit.md) dosyasında bulunmaktadır.
+
 Bu repo [Ali Osman Serdar Demirkol](https://github.com/aoserdardemirkol) tarafından bootcamp sürecinde
 oluşturulmuştur.
