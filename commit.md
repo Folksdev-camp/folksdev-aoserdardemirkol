@@ -12,7 +12,7 @@ Blog projenize ait `integration test`leri oluşturun.
 
 [![](./img/Integration%20Test.png "FolksDev & Kod Gemisi")](https://github.com/aoserdardemirkol/)
 
-## [Ödev 7](https://github.com/Folksdev-camp/folksdev-aoserdardemirkol/commit/98a4986be678a6f3dba0e001ed955466ac4af7f3)
+## [Ödev 7](https://github.com/Folksdev-camp/folksdev-aoserdardemirkol/commit/653da1ce2c0a44c16497579a86838ba7fdebeed8)
 
 Blog projenize ait servislerin `unit test`lerini oluşturun. **Code coverage 100%** yapın.
 
