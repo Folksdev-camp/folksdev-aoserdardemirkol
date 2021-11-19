@@ -55,6 +55,7 @@ Proje 2 şekilde çalıştırılabilir.
 Bu uygulamanın 4 ader API vardır.
 
 JUnit test coverage is 100% as well as integration tests are available.
+[![](./img/JUnit%20Test.png "FolksDev & Kod Gemisi")](https://github.com/aoserdardemirkol/)
 
 |      Controller       | Metot  |            Adres            |                  Açıklama                           |        
 | :-------------------: | :----: | :-------------------------: | :-------------------------------------------------: |
