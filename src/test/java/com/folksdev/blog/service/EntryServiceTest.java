@@ -94,6 +94,8 @@ public class EntryServiceTest extends TestSupport {
 
         Mockito.verify(usersService).findUsersById(entryRequest.getAuthorId());
         Mockito.verifyNoInteractions(tagService);
+        Mockito.verifyNoInteractions(entryRepository);
+        Mockito.verifyNoInteractions(entryDtoConverter);
     }
 
     @Test
@@ -116,7 +118,8 @@ public class EntryServiceTest extends TestSupport {
 
         Mockito.when(usersService.findUsersById("authorId")).thenReturn(users);
         Mockito.when(tagService.getTagList(idList)).thenReturn(tagList);
-        Mockito.when(entryDtoConverter.convert(entryRepository.save(entry))).thenReturn(entryDto);
+        Mockito.when(entryRepository.save(entry)).thenReturn(entry);
+        Mockito.when(entryDtoConverter.convert(entry)).thenReturn(entryDto);
 
         EntryDto result = entryService.createEntry(entryRequest);
 
@@ -146,7 +149,8 @@ public class EntryServiceTest extends TestSupport {
 
         Mockito.when(usersService.findUsersById("authorId")).thenReturn(users);
         Mockito.when(tagService.getTagList(idList)).thenReturn(tagList);
-        Mockito.when(entryDtoConverter.convert(entryRepository.save(entry))).thenReturn(entryDto);
+        Mockito.when(entryRepository.save(entry)).thenReturn(entry);
+        Mockito.when(entryDtoConverter.convert(entry)).thenReturn(entryDto);
 
         EntryDto result = entryService.createEntry(entryRequest);
 
@@ -188,7 +192,8 @@ public class EntryServiceTest extends TestSupport {
                         new Tag("tagId1", "name1"),
                         new Tag("tagId2", "tech")));
         assert entry != null;
-        Mockito.when(entryDtoConverter.convert(entryRepository.save(entry))).thenReturn(entryDto);
+        Mockito.when(entryRepository.save(entry)).thenReturn(entry);
+        Mockito.when(entryDtoConverter.convert(entry)).thenReturn(entryDto);
 
         EntryDto result = entryService.updateEntry("entryId", updateEntryRequest);
 
@@ -216,7 +221,8 @@ public class EntryServiceTest extends TestSupport {
                         new Tag("tagId1", "name1"),
                         new Tag("tagId2", "tech")));
         assert entry != null;
-        Mockito.when(entryDtoConverter.convert(entryRepository.save(entry))).thenReturn(entryDto);
+        Mockito.when(entryRepository.save(entry)).thenReturn(entry);
+        Mockito.when(entryDtoConverter.convert(entry)).thenReturn(entryDto);
 
         EntryDto result = entryService.updateEntry("entryId", updateEntryRequest);
 
@@ -245,6 +251,5 @@ public class EntryServiceTest extends TestSupport {
         assertThrows(EntryNotFoundException.class, () -> entryService.deleteEntryById("entryId"));
 
         Mockito.verify(entryRepository).findById("entryId");
-        Mockito.verifyNoInteractions(entryDtoConverter);
     }
 }

@@ -96,6 +96,7 @@ class CommentServiceTest extends TestSupport {
         Mockito.verify(usersService).findUsersById("authorId");
         Mockito.verifyNoInteractions(entryService);
         Mockito.verifyNoInteractions(commentRepository);
+        Mockito.verifyNoInteractions(commentDtoConverter);
     }
 
     @Test
@@ -111,6 +112,7 @@ class CommentServiceTest extends TestSupport {
         Mockito.verify(usersService).findUsersById("authorId");
         Mockito.verify(entryService).findEntryById("entryId");
         Mockito.verifyNoInteractions(commentRepository);
+        Mockito.verifyNoInteractions(commentDtoConverter);
     }
 
     @Test
@@ -125,7 +127,8 @@ class CommentServiceTest extends TestSupport {
 
         Mockito.when(usersService.findUsersById("authorId")).thenReturn(users);
         Mockito.when(entryService.findEntryById("entryId")).thenReturn(entry);
-        Mockito.when(commentDtoConverter.convert(commentRepository.save(comment))).thenReturn(commentDto);
+        Mockito.when(commentRepository.save(comment)).thenReturn(comment);
+        Mockito.when(commentDtoConverter.convert(comment)).thenReturn(commentDto);
 
         CommentDto result = commentService.createComment(commentRequest);
 
@@ -157,7 +160,8 @@ class CommentServiceTest extends TestSupport {
 
         Mockito.when(commentRepository.findById("commentId")).thenReturn(Optional.ofNullable(comment));
         assert comment != null;
-        Mockito.when(commentDtoConverter.convert(commentRepository.save(comment))).thenReturn(commentDto);
+        Mockito.when(commentRepository.save(comment)).thenReturn(comment);
+        Mockito.when(commentDtoConverter.convert(comment)).thenReturn(commentDto);
 
         CommentDto result = commentService.updateComment("commentId", commentRequest);
 
@@ -185,6 +189,5 @@ class CommentServiceTest extends TestSupport {
         assertThrows(CommentNotFoundException.class, () -> commentService.deleteCommentById("commentId"));
 
         Mockito.verify(commentRepository).findById("commentId");
-        Mockito.verifyNoInteractions(commentDtoConverter);
     }
 }

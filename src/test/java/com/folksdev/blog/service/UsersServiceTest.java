@@ -80,7 +80,8 @@ class UsersServiceTest extends TestSupport {
         Users users = generateUsers();
         UsersDto usersDto = generateUsersDto();
 
-        Mockito.when(usersDtoConverter.convert(usersRepository.save(users))).thenReturn(usersDto);
+        Mockito.when(usersRepository.save(users)).thenReturn(users);
+        Mockito.when(usersDtoConverter.convert(users)).thenReturn(usersDto);
 
         UsersDto result = usersService.createUsers(usersRequest);
 
@@ -110,7 +111,8 @@ class UsersServiceTest extends TestSupport {
 
         Mockito.when(usersRepository.findById("userId")).thenReturn(Optional.ofNullable(users));
         assert users != null;
-        Mockito.when(usersDtoConverter.convert(usersRepository.save(users))).thenReturn(usersDto);
+        Mockito.when(usersRepository.save(users)).thenReturn(users);
+        Mockito.when(usersDtoConverter.convert(users)).thenReturn(usersDto);
 
         UsersDto result = usersService.updateUsers("userId", updateUsersRequest);
 
@@ -148,7 +150,6 @@ class UsersServiceTest extends TestSupport {
         UsersDto usersDto = generateUsersDto();
 
         Mockito.when(usersRepository.findById("userId")).thenReturn(Optional.of(users));
-        Mockito.when(usersDtoConverter.convert(users)).thenReturn(usersDto);
 
         usersService.deleteUserById("userId");
 
@@ -162,6 +163,5 @@ class UsersServiceTest extends TestSupport {
         assertThrows(UsersNotFoundException.class, () -> usersService.deleteUserById("userId"));
 
         Mockito.verify(usersRepository).findById("userId");
-        Mockito.verifyNoInteractions(usersDtoConverter);
     }
 }

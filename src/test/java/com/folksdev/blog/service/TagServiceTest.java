@@ -85,7 +85,8 @@ public class TagServiceTest extends TestSupport {
         Tag tag = generateTag();
         TagDto tagDto = generateTagDto();
 
-        Mockito.when(tagDtoConverter.convert(tagRepository.save(tag))).thenReturn(tagDto);
+        Mockito.when(tagRepository.save(tag)).thenReturn(tag);
+        Mockito.when(tagDtoConverter.convert(tag)).thenReturn(tagDto);
 
         TagDto result = tagService.createTag(tagRequest);
 
