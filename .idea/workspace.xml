@@ -4,43 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a7f608e-ce2c-48a0-9312-56720e245b84" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4e10089c-1cdb-42c6-b3d2-01e0e533c9ef" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="Kotlin Class" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
-        <entry key="JPA Inspector" value="true" />
         <entry key="JPA Palette" value="true" />
         <entry key="JPA Structure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="JPA Inspector" value="false" />
         <entry key="JPA Palette" value="false" />
         <entry key="JPA Structure" value="false" />
       </map>
     </option>
   </component>
-  <component name="ProjectId" id="216Kiw7ar5Kcr0Jo8wLkScNYQvV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="218QzbqzeA0UnEYlg97aykeT6Jt" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -54,25 +38,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/projects/folksdev-aoserdardemirkol-main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\aoser\Downloads\blog\blog\src\test\java" />
+      <recent name="C:\Users\aoser\Downloads\blog\blog" />
       <recent name="C:\Users\aoser\Downloads\blog\blog\src\test\java\com\folksdev\blog" />
-      <recent name="C:\Users\aoser\Downloads\blog\blog\src\main\resources\db" />
-      <recent name="C:\Users\aoser\Downloads\blog\blog\src\main\java\com\folksdev\blog\exception" />
-      <recent name="C:\Users\aoser\Downloads\blog\blog\src\main\java\com\folksdev\blog\service" />
+      <recent name="C:\Users\aoser\Downloads\blog\blog\src\main\resources" />
+      <recent name="C:\Users\aoser\Downloads\blog\blog\src\main\java\com\folksdev\blog" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\aoser\Downloads\blog\blog\src\test" />
-    </key>
-    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
-      <recent name="com.folksdev.blog.model" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.folksdev.blog.configuration" />
+      <recent name="C:\Users\aoser\Downloads\blog\blog\src\main\resources\db" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.com.folksdev.blog in blog">
@@ -90,27 +67,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.folksdev.blog.controller in blog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="blog" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.folksdev.blog.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.folksdev.blog.controller" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BlogApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="folksdev-aoserdardemirkol" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.folksdev.blog.BlogApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="blog" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.folksdev.blog.BlogApplication" />
@@ -121,41 +77,26 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.com.folksdev.blog in blog" />
-        <item itemvalue="JUnit.com.folksdev.blog.controller in blog" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3a7f608e-ce2c-48a0-9312-56720e245b84" name="Changes" comment="" />
-      <created>1637256228098</created>
+      <changelist id="4e10089c-1cdb-42c6-b3d2-01e0e533c9ef" name="Changes" comment="" />
+      <created>1637320497918</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1637256228098</updated>
-      <workItem from="1637256229288" duration="3281000" />
-      <workItem from="1637261625376" duration="274000" />
-      <workItem from="1637261972743" duration="44000" />
+      <updated>1637320497918</updated>
+      <workItem from="1637320499025" duration="719000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/blog$com_folksdev_blog_in_blog.ic" NAME="com.folksdev.blog in blog Coverage Results" MODIFIED="1637261636910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/blog$com_folksdev_blog_in_blog.ic" NAME="com.folksdev.blog in blog Coverage Results" MODIFIED="1637320965841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.folksdev.blog.*</FILTER>
     </SUITE>
   </component>
