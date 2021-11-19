@@ -33,7 +33,7 @@ Blog projesine ait modellere birer repository oluşturarak `CommandLineRunner` s
 
 Blog projesine ait `Entry`, `Comment` ve `User` modelleri oluşturup aralarındaki ilişkiyi kurun.
 
-[![](./img/odev-4.png "Odev 4 DB İlişki Diagramı")](https://github.com/ugurcandede/)
+[![](./img/ERD.png "Odev 4 DB İlişki Diagramı")](https://github.com/aoserdardemirkol/)
 
 ## [Ödev 3](https://github.com/Folksdev-camp/folksdev-aoserdardemirkol/commit/7ab529f3ef4fe0c3b5c27c857994ca9d6d0f9d27)
 
