@@ -50,6 +50,10 @@ Proje 2 şekilde çalıştırılabilir.
 >
 > `http://localhost:5433` adresinde ise PostgreSQL çalışacaktır
 
+## Swagger UI
+
+http://localhost:${PORT}/swagger-ui.html
+
 ## HTTP İstek Yapısı
 
 Bu uygulamada 4 adet API vardır.
