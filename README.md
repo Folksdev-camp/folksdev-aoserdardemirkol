@@ -52,7 +52,7 @@ Proje 2 şekilde çalıştırılabilir.
 
 ## HTTP İstek Yapısı
 
-Bu uygulamanın 4 ader API vardır.
+Bu uygulamada 4 adet API vardır.
 
 JUnit test coverage 100% ve Integration testleri yapılmıştır.
 
