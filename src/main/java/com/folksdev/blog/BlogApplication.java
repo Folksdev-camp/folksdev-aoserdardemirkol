@@ -29,7 +29,7 @@ public class BlogApplication {
 						.description(description)
 						.contact(new Contact()
 								.name("Ali Osman Serdar Demirkol")
-								.url("https://github.com/aoserdardemirkol/" + "değiştir")
+								.url("https://github.com/aoserdardemirkol/Spring-API-Blog")
 								.email("aoserdardemirkol@gmail.com"))
-						.license(new License().name("Blog API Licence").url("https://github.com/aoserdardemirkol/" + "değiştir" + "/blob/master/LICENCE")));	}
+						.license(new License().name("Blog API Licence").url("https://github.com/aoserdardemirkol/Spring-API-Blog/blob/master/LICENCE")));	}
 }
