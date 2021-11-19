@@ -34,9 +34,9 @@ Proje 2 şekilde çalıştırılabilir.
 3. `mvn clean install` ile çalıştırılabilir jar dosyasını oluşturun.
 4. `mvn spring-boot:run` ile projeyi çalıştırın.
 
-> `http://localhost:9090` adresinde API,
+> `http://localhost:8080` adresinde API,
 >
-> `http://localhost:5433` adresinde ise PostgreSQL çalışacaktır 
+> `http://localhost:5432` adresinde ise PostgreSQL çalışacaktır 
 
 
 ### Docker Compose
