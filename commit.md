@@ -1,5 +1,3 @@
-# Proje Commit Geçmişi
-
 ## [Docker](https://github.com/Folksdev-camp/folksdev-aoserdardemirkol/commit/4bbdf0fb7809a7410a808149b894cc3b58547287)
 
 Blog projesine `Docker` desteği eklendi.
