@@ -1,6 +1,6 @@
 # Proje Commit Geçmişi
 
-## [Docker]
+## [Docker](https://github.com/Folksdev-camp/folksdev-aoserdardemirkol/commit/4bbdf0fb7809a7410a808149b894cc3b58547287)
 
 Blog projesine `Docker` desteği eklendi.
 
@@ -40,7 +40,7 @@ Blog projesine ait `Entry`, `Comment` ve `User` modelleri oluşturup aralarında
 Projenize ait bir veritabanı oluşturun, blog ve yorumları çekebileceğiniz bir sorgu yazın. Yazdığınız sorgu kodunu
 projedeki `resource` kısmına SQL dosyası olarak ekleyin.
 
-[Blog ve blog yorumlarını öeken sorgu](https://github.com/Folksdev-camp/folksdev-aoserdardemirkol/blob/main/src/main/resources/odev3_dbDump.sql)
+[Blog ve blog yorumlarını çeken sorgu](https://github.com/Folksdev-camp/folksdev-aoserdardemirkol/blob/main/src/main/resources/odev3_dbDump.sql)
 
 [SQL Tablo Oluşturma Kodları](https://github.com/Folksdev-camp/folksdev-aoserdardemirkol/blob/main/src/main/resources/blogDump.sql)
 
