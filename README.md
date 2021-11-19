@@ -52,7 +52,11 @@ Proje 2 şekilde çalıştırılabilir.
 
 ## Swagger UI
 
+Swagger UI verilen url de çalışacaktır.
+
 http://localhost:${PORT}/swagger-ui.html
+
+!Port değeri genelde 8080 dir. ancak uygulama hangi portda çalışıyor ise ${PORT} değeri yerine uygulamanın çalıştığı portu yazınız.
 
 ## HTTP İstek Yapısı
 
