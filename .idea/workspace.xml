@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e10089c-1cdb-42c6-b3d2-01e0e533c9ef" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/folksdev/blog/service/CommentServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/folksdev/blog/service/CommentServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/folksdev/blog/service/EntryServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/folksdev/blog/service/EntryServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/folksdev/blog/service/TagServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/folksdev/blog/service/TagServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/folksdev/blog/service/UsersServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/folksdev/blog/service/UsersServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +162,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637320497918</updated>
       <workItem from="1637320499025" duration="719000" />
-      <workItem from="1637405481785" duration="8536000" />
+      <workItem from="1637405481785" duration="8961000" />
     </task>
     <servers />
   </component>
@@ -189,6 +185,9 @@
       <FILTER>com.folksdev.blog.controller.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/blog$com_folksdev_blog_in_blog.ic" NAME="com.folksdev.blog in blog Coverage Results" MODIFIED="1637320965841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.folksdev.blog.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/folksdev_aoserdardemirkol$com_folksdev_blog_in_folksdev_aoserdardemirkol.ic" NAME="com.folksdev.blog in folksdev-aoserdardemirkol Coverage Results" MODIFIED="1637437669018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.folksdev.blog.*</FILTER>
     </SUITE>
   </component>
