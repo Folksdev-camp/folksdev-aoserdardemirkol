@@ -127,7 +127,8 @@ public class EntryServiceTest extends TestSupport {
 
         Mockito.verify(usersService).findUsersById("authorId");
         Mockito.verify(tagService).getTagList(idList);
-        Mockito.verify(entryDtoConverter).convert(entryRepository.save(entry));
+        Mockito.verify(entryRepository).save(entry);
+        Mockito.verify(entryDtoConverter).convert(entry);
     }
 
     @Test
@@ -158,7 +159,8 @@ public class EntryServiceTest extends TestSupport {
 
         Mockito.verify(usersService).findUsersById("authorId");
         Mockito.verify(tagService).getTagList(idList);
-        Mockito.verify(entryDtoConverter).convert(entryRepository.save(entry));
+        Mockito.verify(entryRepository).save(entry);
+        Mockito.verify(entryDtoConverter).convert(entry);
     }
 
     @Test
@@ -201,7 +203,8 @@ public class EntryServiceTest extends TestSupport {
 
         Mockito.verify(entryRepository).findById("entryId");
         Mockito.verify(tagService).getTagList(idList);
-        Mockito.verify(entryDtoConverter).convert(entryRepository.save(entry));
+        Mockito.verify(entryRepository).save(entry);
+        Mockito.verify(entryDtoConverter).convert(entry);
     }
 
     @Test
@@ -230,7 +233,8 @@ public class EntryServiceTest extends TestSupport {
 
         Mockito.verify(entryRepository).findById("entryId");
         Mockito.verify(tagService).getTagList(idList);
-        Mockito.verify(entryDtoConverter).convert(entryRepository.save(entry));
+        Mockito.verify(entryRepository).save(entry);
+        Mockito.verify(entryDtoConverter).convert(entry);
     }
 
     @Test

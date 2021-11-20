@@ -136,7 +136,8 @@ class CommentServiceTest extends TestSupport {
 
         Mockito.verify(usersService).findUsersById("authorId");
         Mockito.verify(entryService).findEntryById("entryId");
-        Mockito.verify(commentDtoConverter).convert(commentRepository.save(comment));
+        Mockito.verify(commentRepository).save(comment);
+        Mockito.verify(commentDtoConverter).convert(comment);
     }
 
     @Test
@@ -168,7 +169,8 @@ class CommentServiceTest extends TestSupport {
         assertEquals(commentDto, result);
 
         Mockito.verify(commentRepository).findById("commentId");
-        Mockito.verify(commentDtoConverter).convert(commentRepository.save(comment));
+        Mockito.verify(commentRepository).save(comment);
+        Mockito.verify(commentDtoConverter).convert(comment);
     }
 
     @Test

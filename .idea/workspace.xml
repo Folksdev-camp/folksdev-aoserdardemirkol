@@ -6,11 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4e10089c-1cdb-42c6-b3d2-01e0e533c9ef" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/folksdev/blog/controller/CommentControllerIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/folksdev/blog/controller/CommentControllerIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/folksdev/blog/controller/EntryControllerIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/folksdev/blog/controller/EntryControllerIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/folksdev/blog/controller/TagControllerIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/folksdev/blog/controller/TagControllerIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/folksdev/blog/controller/UsersControllerIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/folksdev/blog/controller/UsersControllerIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/folksdev/blog/service/CommentServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/folksdev/blog/service/CommentServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/folksdev/blog/service/EntryServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/folksdev/blog/service/EntryServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/folksdev/blog/service/TagServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/folksdev/blog/service/TagServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/folksdev/blog/service/UsersServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/folksdev/blog/service/UsersServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,99 +61,99 @@
       <recent name="C:\Users\aoser\Downloads\blog\blog\src\main\resources\db" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.com.folksdev.blog.controller in folksdev-aoserdardemirkol">
-    <configuration name="EntryControllerIT.testCreateEntry_whenCreateEntryRequestIsInvalid_shouldNotCreateEntryAndReturnBadRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.com.folksdev.blog in folksdev-aoserdardemirkol">
+    <configuration name="CommentServiceTest.testUpdateComment_whenCommentExist_shouldReturnCommentDto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="folksdev-aoserdardemirkol" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.folksdev.blog.controller.*" />
+          <option name="PATTERN" value="com.folksdev.blog.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.folksdev.blog.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.folksdev.blog.controller.EntryControllerIT" />
-      <option name="METHOD_NAME" value="testCreateEntry_whenCreateEntryRequestIsInvalid_shouldNotCreateEntryAndReturnBadRequest" />
+      <option name="PACKAGE_NAME" value="com.folksdev.blog.service" />
+      <option name="MAIN_CLASS_NAME" value="com.folksdev.blog.service.CommentServiceTest" />
+      <option name="METHOD_NAME" value="testUpdateComment_whenCommentExist_shouldReturnCommentDto" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EntryControllerIT.testUpdateEntry_whenIdAndRequestIsValid_shouldUpdateEntryAndReturnEntryDto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EntryServiceTest.testCreateEntry_whenTagListExist_shouldReturnEntryDto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="folksdev-aoserdardemirkol" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.folksdev.blog.controller.*" />
+          <option name="PATTERN" value="com.folksdev.blog.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.folksdev.blog.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.folksdev.blog.controller.EntryControllerIT" />
-      <option name="METHOD_NAME" value="testUpdateEntry_whenIdAndRequestIsValid_shouldUpdateEntryAndReturnEntryDto" />
+      <option name="PACKAGE_NAME" value="com.folksdev.blog.service" />
+      <option name="MAIN_CLASS_NAME" value="com.folksdev.blog.service.EntryServiceTest" />
+      <option name="METHOD_NAME" value="testCreateEntry_whenTagListExist_shouldReturnEntryDto" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsersControllerIT.testCreateUsers_whenCreateUsersRequestIsValid_shouldCreateUsersAndReturnUsersDto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EntryServiceTest.testCreateEntry_whenTagListNotExist_shouldReturnCreateEntryByDefaultTag" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="folksdev-aoserdardemirkol" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.folksdev.blog.controller.*" />
+          <option name="PATTERN" value="com.folksdev.blog.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.folksdev.blog.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.folksdev.blog.controller.UsersControllerIT" />
-      <option name="METHOD_NAME" value="testCreateUsers_whenCreateUsersRequestIsValid_shouldCreateUsersAndReturnUsersDto" />
+      <option name="PACKAGE_NAME" value="com.folksdev.blog.service" />
+      <option name="MAIN_CLASS_NAME" value="com.folksdev.blog.service.EntryServiceTest" />
+      <option name="METHOD_NAME" value="testCreateEntry_whenTagListNotExist_shouldReturnCreateEntryByDefaultTag" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsersControllerIT.testUpdateUsers_whenIdAndRequestIsValid_shouldUpdateUsersAndReturnUsersDto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TagServiceTest.testDeleteTagById_whenTagIdNotExist_shouldThrowTagNotFoundException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="folksdev-aoserdardemirkol" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.folksdev.blog.controller.*" />
+          <option name="PATTERN" value="com.folksdev.blog.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.folksdev.blog.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.folksdev.blog.controller.UsersControllerIT" />
-      <option name="METHOD_NAME" value="testUpdateUsers_whenIdAndRequestIsValid_shouldUpdateUsersAndReturnUsersDto" />
+      <option name="PACKAGE_NAME" value="com.folksdev.blog.service" />
+      <option name="MAIN_CLASS_NAME" value="com.folksdev.blog.service.TagServiceTest" />
+      <option name="METHOD_NAME" value="testDeleteTagById_whenTagIdNotExist_shouldThrowTagNotFoundException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.folksdev.blog.controller in folksdev-aoserdardemirkol" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="com.folksdev.blog in folksdev-aoserdardemirkol" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="folksdev-aoserdardemirkol" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.folksdev.blog.controller.*" />
+          <option name="PATTERN" value="com.folksdev.blog.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.folksdev.blog.controller" />
+      <option name="PACKAGE_NAME" value="com.folksdev.blog" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="blog" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.folksdev.blog.BlogApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="JUnit.EntryServiceTest.testCreateEntry_whenTagListExist_shouldReturnEntryDto" />
+      <item itemvalue="JUnit.EntryServiceTest.testCreateEntry_whenTagListNotExist_shouldReturnCreateEntryByDefaultTag" />
+      <item itemvalue="JUnit.TagServiceTest.testDeleteTagById_whenTagIdNotExist_shouldThrowTagNotFoundException" />
+      <item itemvalue="JUnit.CommentServiceTest.testUpdateComment_whenCommentExist_shouldReturnCommentDto" />
+      <item itemvalue="JUnit.com.folksdev.blog in folksdev-aoserdardemirkol" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.com.folksdev.blog.controller in folksdev-aoserdardemirkol" />
-        <item itemvalue="JUnit.UsersControllerIT.testUpdateUsers_whenIdAndRequestIsValid_shouldUpdateUsersAndReturnUsersDto" />
-        <item itemvalue="JUnit.UsersControllerIT.testCreateUsers_whenCreateUsersRequestIsValid_shouldCreateUsersAndReturnUsersDto" />
-        <item itemvalue="JUnit.EntryControllerIT.testUpdateEntry_whenIdAndRequestIsValid_shouldUpdateEntryAndReturnEntryDto" />
-        <item itemvalue="JUnit.EntryControllerIT.testCreateEntry_whenCreateEntryRequestIsInvalid_shouldNotCreateEntryAndReturnBadRequest" />
+        <item itemvalue="JUnit.com.folksdev.blog in folksdev-aoserdardemirkol" />
+        <item itemvalue="JUnit.CommentServiceTest.testUpdateComment_whenCommentExist_shouldReturnCommentDto" />
+        <item itemvalue="JUnit.TagServiceTest.testDeleteTagById_whenTagIdNotExist_shouldThrowTagNotFoundException" />
+        <item itemvalue="JUnit.EntryServiceTest.testCreateEntry_whenTagListNotExist_shouldReturnCreateEntryByDefaultTag" />
+        <item itemvalue="JUnit.EntryServiceTest.testCreateEntry_whenTagListExist_shouldReturnEntryDto" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +166,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637320497918</updated>
       <workItem from="1637320499025" duration="719000" />
-      <workItem from="1637405481785" duration="6695000" />
+      <workItem from="1637405481785" duration="8536000" />
     </task>
     <servers />
   </component>
@@ -186,6 +185,9 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/folksdev_aoserdardemirkol$com_folksdev_blog_controller_in_folksdev_aoserdardemirkol.ic" NAME="com.folksdev.blog.controller in folksdev-aoserdardemirkol Coverage Results" MODIFIED="1637435964797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.folksdev.blog.controller.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/blog$com_folksdev_blog_in_blog.ic" NAME="com.folksdev.blog in blog Coverage Results" MODIFIED="1637320965841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.folksdev.blog.*</FILTER>
     </SUITE>

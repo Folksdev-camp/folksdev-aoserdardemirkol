@@ -87,7 +87,8 @@ class UsersServiceTest extends TestSupport {
 
         assertEquals(usersDto, result);
 
-        Mockito.verify(usersDtoConverter).convert(usersRepository.save(users));
+        Mockito.verify(usersRepository).save(users);
+        Mockito.verify(usersDtoConverter).convert(users);
     }
 
     @Test
@@ -119,7 +120,8 @@ class UsersServiceTest extends TestSupport {
         assertEquals(usersDto, result);
 
         Mockito.verify(usersRepository).findById("userId");
-        Mockito.verify(usersDtoConverter).convert(usersRepository.save(users));
+        Mockito.verify(usersRepository).save(users);
+        Mockito.verify(usersDtoConverter).convert(users);
     }
 
     @Test
@@ -147,7 +149,6 @@ class UsersServiceTest extends TestSupport {
     @Test
     void testDeleteUserById_whenUsersIdExist_shouldReturnVoid(){
         Users users = generateUsers();
-        UsersDto usersDto = generateUsersDto();
 
         Mockito.when(usersRepository.findById("userId")).thenReturn(Optional.of(users));
 

@@ -92,7 +92,8 @@ public class TagServiceTest extends TestSupport {
 
         assertEquals(tagDto, result);
 
-        Mockito.verify(tagDtoConverter).convert(tagRepository.save(tag));
+        Mockito.verify(tagRepository).save(tag);
+        Mockito.verify(tagDtoConverter).convert(tag);
     }
 
     @Test
@@ -147,7 +148,6 @@ public class TagServiceTest extends TestSupport {
         assertThrows(TagNotFoundException.class, () -> tagService.deleteTagById("tagId"));
 
         Mockito.verify(tagRepository).findById("tagId");
-        Mockito.verifyNoInteractions(tagDtoConverter);
     }
 
     @Test
