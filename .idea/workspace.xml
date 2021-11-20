@@ -57,7 +57,7 @@
       <recent name="C:\Users\aoser\Downloads\blog\blog\src\main\resources\db" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.com.folksdev.blog in folksdev-aoserdardemirkol">
+  <component name="RunManager" selected="Spring Boot.BlogApplication">
     <configuration name="CommentServiceTest.testUpdateComment_whenCommentExist_shouldReturnCommentDto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="folksdev-aoserdardemirkol" />
       <extension name="coverage">
@@ -69,22 +69,6 @@
       <option name="PACKAGE_NAME" value="com.folksdev.blog.service" />
       <option name="MAIN_CLASS_NAME" value="com.folksdev.blog.service.CommentServiceTest" />
       <option name="METHOD_NAME" value="testUpdateComment_whenCommentExist_shouldReturnCommentDto" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EntryServiceTest.testCreateEntry_whenTagListExist_shouldReturnEntryDto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="folksdev-aoserdardemirkol" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.folksdev.blog.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.folksdev.blog.service" />
-      <option name="MAIN_CLASS_NAME" value="com.folksdev.blog.service.EntryServiceTest" />
-      <option name="METHOD_NAME" value="testCreateEntry_whenTagListExist_shouldReturnEntryDto" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,20 +120,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="folksdev-aoserdardemirkol" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.folksdev.blog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.folksdev.blog.BlogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.EntryServiceTest.testCreateEntry_whenTagListExist_shouldReturnEntryDto" />
       <item itemvalue="JUnit.EntryServiceTest.testCreateEntry_whenTagListNotExist_shouldReturnCreateEntryByDefaultTag" />
       <item itemvalue="JUnit.TagServiceTest.testDeleteTagById_whenTagIdNotExist_shouldThrowTagNotFoundException" />
       <item itemvalue="JUnit.CommentServiceTest.testUpdateComment_whenCommentExist_shouldReturnCommentDto" />
       <item itemvalue="JUnit.com.folksdev.blog in folksdev-aoserdardemirkol" />
+      <item itemvalue="Spring Boot.BlogApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.BlogApplication" />
         <item itemvalue="JUnit.com.folksdev.blog in folksdev-aoserdardemirkol" />
         <item itemvalue="JUnit.CommentServiceTest.testUpdateComment_whenCommentExist_shouldReturnCommentDto" />
         <item itemvalue="JUnit.TagServiceTest.testDeleteTagById_whenTagIdNotExist_shouldThrowTagNotFoundException" />
         <item itemvalue="JUnit.EntryServiceTest.testCreateEntry_whenTagListNotExist_shouldReturnCreateEntryByDefaultTag" />
-        <item itemvalue="JUnit.EntryServiceTest.testCreateEntry_whenTagListExist_shouldReturnEntryDto" />
       </list>
     </recent_temporary>
   </component>
